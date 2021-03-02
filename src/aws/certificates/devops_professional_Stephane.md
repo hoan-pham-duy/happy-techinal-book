@@ -194,3 +194,11 @@ Jenkins
 - Important!: Structure buildspec.yml <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html" target="_blank">Refer here</a><br />
 - Need provide Role to access other services like S3
 </details>
+<details>
+    <summary class="content-header">16. CodeBuild - Docker, ECR & buildspec.yml</summary>
+    -  Code Build Samples: <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/samples.html">Refer here</a>
+</details>
+<details>
+    <summary class="content-header">17. CodeBuild - Environment Variables & Parameter Store</summary>
+    -  Code Build Samples: <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/samples.html">Refer here</a>
+</details>
