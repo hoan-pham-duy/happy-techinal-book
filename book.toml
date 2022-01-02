@@ -1,0 +1,6 @@
+[book]
+authors = ["Pham Duy Hoan"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Happy's Technical Book"
