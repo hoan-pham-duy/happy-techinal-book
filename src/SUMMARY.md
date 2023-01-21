@@ -8,3 +8,4 @@
 [DevOps](devops/devops.md)
 - [Services]()
   - [Helm](devops/services/helm/helm.md)
+  - [K8s](devops/services/k8s/k8s.md)
