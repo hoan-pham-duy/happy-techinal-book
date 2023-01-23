@@ -9,3 +9,4 @@
 - [Services]()
   - [Helm](devops/services/helm/helm.md)
   - [K8s](devops/services/k8s/k8s.md)
+  - [Terraform](devops/services/terraform/terraform.md)
