@@ -132,3 +132,7 @@ Jenkins
 - 2 ways connect to CodeCommit: SSH and HTTPs
 - HTTPs: create IAM Role
 </details>
+<details>
+    <summary>8. CodeCommit - clone, add, commit, push</summary>
+- Should commit appspec.yml (CodeDeploy) + buildspec.yml (CodeBuild)
+</details>
