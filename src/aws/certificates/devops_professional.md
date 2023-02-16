@@ -136,3 +136,9 @@ Jenkins
     <summary>8. CodeCommit - clone, add, commit, push</summary>
 - Should commit appspec.yml (CodeDeploy) + buildspec.yml (CodeBuild)
 </details>
+<details>
+    <summary>9. CodeCommit - Branches and Pull Requests</summary>
+- Should have master branch, staging branch, feature branches
+- git push --set-upstream ... if the current branch has no up-stream branch
+- Crerate Pull Request from feature branches to master branch
+</details>
