@@ -142,3 +142,7 @@ Jenkins
 - git push --set-upstream ... if the current branch has no up-stream branch
 - Crerate Pull Request from feature branches to master branch
 </details>
+<details>
+    <summary>10. CodeCommit - Securing the Repository and Branches</summary>
+    - Limit Pushes and Merges to Branches (eg. only Admin can merge the code to master) by attaching Policy to IAM User (eg. Deny codecommit:DeleteBranch)
+</details>
