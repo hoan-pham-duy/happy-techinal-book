@@ -122,27 +122,32 @@ Jenkins
 </details>
 <details>
     <summary>6. CodeCommit</summary>
-- Version Control
-- Central online git repository
-- Collaborate, backup code
-- AWS CodeCommit: private Git repositories
+- Version Control<br />
+- Central online git repository<br />
+- Collaborate, backup code<br />
+- AWS CodeCommit: private Git repositories<br />
 </details>
 <details>
     <summary>7. CodeCommit - First Repo & HTTPs config</summary>
-- 2 ways connect to CodeCommit: SSH and HTTPs
-- HTTPs: create IAM Role
+- 2 ways connect to CodeCommit: SSH and HTTPs<br />
+- HTTPs: create IAM Role<br />
 </details>
 <details>
     <summary>8. CodeCommit - clone, add, commit, push</summary>
-- Should commit appspec.yml (CodeDeploy) + buildspec.yml (CodeBuild)
+- Should commit appspec.yml (CodeDeploy) + buildspec.yml (CodeBuild)<br />
 </details>
 <details>
     <summary>9. CodeCommit - Branches and Pull Requests</summary>
-- Should have master branch, staging branch, feature branches
-- git push --set-upstream ... if the current branch has no up-stream branch
-- Crerate Pull Request from feature branches to master branch
+- Should have master branch, staging branch, feature branches<br />
+- git push --set-upstream ... if the current branch has no up-stream branch<br />
+- Create Pull Request from feature branches to master branch<br />
 </details>
 <details>
     <summary>10. CodeCommit - Securing the Repository and Branches</summary>
-    - Limit Pushes and Merges to Branches (eg. only Admin can merge the code to master) by attaching Policy to IAM User (eg. Deny codecommit:DeleteBranch)
+    - Limit Pushes and Merges to Branches (eg. only Admin can merge the code to master) by attaching Policy to IAM User (eg. Deny codecommit:DeleteBranch)<br />
+</details>
+<details>
+    <summary>11. CodeCommit - Triggers & Notifications</summary>
+    - Automation with Notifications, Triggers.<br />
+    - Should create Repository tags.<br />
 </details>
