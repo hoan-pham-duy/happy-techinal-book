@@ -1,11 +1,15 @@
+<style>
+.content-header {
+    color: #3996d6;
+}
+</style>
 ### AWS Certified DevOps Engineer Professional 2023 - Hands On!, Stephane Maare
 
 - [Section 1: Course overview]()
 - [Section 2: Code & Slides Download]()
 - [Section 3: SLDC (Software Development Life Cycle) Automation]()
-
 <details>
-<summary> 4. CICD Overiew: </summary>
+    <summary class="content-header"> 4. CICD Overiew: </summary>
 + Continous Integration
 <div>
     <img src='./statics/CI_CD_useful.png' style="height: 300px;">
@@ -23,7 +27,7 @@ Continous Deployment: Full automation <br>
 </div>
 </details>
 <details>
-<summary>5. Reference Link: </summary>
+<summary class="content-header">5. Reference Link: </summary>
 CodeCommit
 
     https://www.atlassian.com/git/tutorials/using-branches
@@ -121,33 +125,33 @@ Jenkins
     https://wiki.jenkins.io/display/JENKINS/AWS+CodePipeline+Plugin 
 </details>
 <details>
-    <summary>6. CodeCommit</summary>
+    <summary class="content-header">6. CodeCommit</summary>
 - Version Control<br />
 - Central online git repository<br />
 - Collaborate, backup code<br />
 - AWS CodeCommit: private Git repositories<br />
 </details>
 <details>
-    <summary>7. CodeCommit - First Repo & HTTPs config</summary>
+    <summary class="content-header">7. CodeCommit - First Repo & HTTPs config</summary>
 - 2 ways connect to CodeCommit: SSH and HTTPs<br />
 - HTTPs: create IAM Role<br />
 </details>
 <details>
-    <summary>8. CodeCommit - clone, add, commit, push</summary>
+    <summary class="content-header">8. CodeCommit - clone, add, commit, push</summary>
 - Should commit appspec.yml (CodeDeploy) + buildspec.yml (CodeBuild)<br />
 </details>
 <details>
-    <summary>9. CodeCommit - Branches and Pull Requests</summary>
+    <summary class="content-header">9. CodeCommit - Branches and Pull Requests</summary>
 - Should have master branch, staging branch, feature branches<br />
 - git push --set-upstream ... if the current branch has no up-stream branch<br />
 - Create Pull Request from feature branches to master branch<br />
 </details>
 <details>
-    <summary>10. CodeCommit - Securing the Repository and Branches</summary>
+    <summary class="content-header">10. CodeCommit - Securing the Repository and Branches</summary>
     - Limit Pushes and Merges to Branches (eg. only Admin can merge the code to master) by attaching Policy to IAM User (eg. Deny codecommit:DeleteBranch)<br />
 </details>
 <details>
-    <summary>11. CodeCommit - Triggers & Notifications</summary>
+    <summary class="content-header">11. CodeCommit - Triggers & Notifications</summary>
     - Automation with Notifications, Triggers.<br />
     - Should create Repository tags.<br />
 </details>
