@@ -152,6 +152,6 @@ Jenkins
 </details>
 <details>
     <summary class="content-header">11. CodeCommit - Triggers & Notifications</summary>
-    - Automation with Notifications, Triggers.<br />
+    - Automation with Notifications, Triggers (connect to SNS, Lambda)<br />
     - Should create Repository tags.<br />
 </details>
