@@ -167,3 +167,18 @@ Jenkins
     - Leverages Docker under the hood, can use your own Docker, pay as use <br />
     - Secure: Integration with KMS for encryption of build artifacts,IAM for build permissions, and VPC for network security, CloudTrail for API calls logging.
 </details>
+<details>
+    <summary class="content-header">13. CodeBuild - Overview</summary>
+    - Fully managed build service, such as Jenkins Build <br />
+    - Continuous scaling (no servers to manage or provision – no build queue) <br />
+    - Leverages Docker under the hood, can use your own Docker, pay as use <br />
+    - Secure: Integration with KMS for encryption of build artifacts,IAM for build permissions, and VPC for network security, CloudTrail for API calls logging.
+    - Source Code from GitHub / CodeCommit / CodePipeline / S3... <br />
+    - Build instructions can be defined in code (buildspec.yml file) <br />
+    - Output logs to Amazon S3 & AWS CloudWatch Logs <br />
+    - Metrics to monitor CodeBuild statistics <br />
+    - Use CloudWatch Events to detect failed builds and trigger notifications <br />
+    - Use CloudWatch Alarms to notify if you need “thresholds” for failures <br />
+    - CloudWatch Events / AWS Lambda as a Glue <br />
+    - SNS notifications <br />
+</details>
