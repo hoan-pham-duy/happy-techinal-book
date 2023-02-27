@@ -155,3 +155,8 @@ Jenkins
     - Automation with Notifications, Triggers (connect to SNS, Lambda)<br />
     - Should create Repository tags.<br />
 </details>
+<details>
+    <summary class="content-header">12. CodeCommit - & AWS Lambda</summary>
+    - Lambda is good for automation <br />
+    - Send notification to Lambda or trigger Lambda <br />
+</details>
