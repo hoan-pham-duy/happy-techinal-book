@@ -160,3 +160,10 @@ Jenkins
     - Lambda is good for automation <br />
     - Send notification to Lambda or trigger Lambda <br />
 </details>
+<details>
+    <summary class="content-header">13. CodeBuild - Overview</summary>
+    - Fully managed build service, such as Jenkins Build <br />
+    - Continuous scaling (no servers to manage or provision – no build queue) <br />
+    - Leverages Docker under the hood, can use your own Docker, pay as use <br />
+    - Secure: Integration with KMS for encryption of build artifacts,IAM for build permissions, and VPC for network security, CloudTrail for API calls logging.
+</details>
