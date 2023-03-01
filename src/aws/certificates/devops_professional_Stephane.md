@@ -182,3 +182,8 @@ Jenkins
     - CloudWatch Events / AWS Lambda as a Glue <br />
     - SNS notifications <br />
 </details>
+<details>
+    <summary class="content-header">14. CodeBuild - First Build</summary>
+    - Choose Source with reference types (branch, git tag, commit ID) to build <br />
+    - Choose Manage Image or Custom image (your own Docker)
+</details>
