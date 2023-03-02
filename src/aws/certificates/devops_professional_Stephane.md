@@ -185,5 +185,12 @@ Jenkins
 <details>
     <summary class="content-header">14. CodeBuild - First Build</summary>
     - Choose Source with reference types (branch, git tag, commit ID) to build <br />
-    - Choose Manage Image or Custom image (your own Docker)
+    - Choose Manage Image or Custom image (your own Docker) <br />
+    - Better than lambda to build (Timeout Lambda timeout only 15 minutes, CodeBuild 8 hours,cerrtificate, VPC) <br />
+    - Build history <br />
+</details>
+<details>
+    <summary class="content-header">15. CodeBuild - buildspec.yml Deep Dive</summary>
+- Important!: Structure buildspec.yml <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html" target="_blank">Refer here</a><br />
+- Need provide Role to access other services like S3
 </details>
