@@ -202,3 +202,9 @@ Jenkins
     <summary class="content-header">17. CodeBuild - Environment Variables & Parameter Store</summary>
     -  Code Build Samples: <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/samples.html">Refer here</a>
 </details>
+<details>
+    <summary class="content-header">18. CodeBuild - Artifacts and S3</summary>
+    -  Use aritifacts: in buildspec.yml <br />
+    -  See log in CloudWatch Logs <br />
+    -  Can choose multiple artifacts, or run command to push your Docker image to Amazon ECR <br />
+</details>
