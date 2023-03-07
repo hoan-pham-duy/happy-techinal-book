@@ -208,3 +208,7 @@ Jenkins
     -  See log in CloudWatch Logs <br />
     -  Can choose multiple artifacts, or run command to push your Docker image to Amazon ECR <br />
 </details>
+<details>
+    <summary class="content-header">19. CodeBuild - CloudWatch Events, CloudWatch Logs, CloudWatch Metrics & Triggers</summary>
+    - CodeBuild have many Cloudwatch Metrics: Build, SucceedBuild, Failed Builds, .. <br />
+</details>
