@@ -212,3 +212,7 @@ Jenkins
     <summary class="content-header">19. CodeBuild - CloudWatch Events, CloudWatch Logs, CloudWatch Metrics & Triggers</summary>
     - CodeBuild have many Cloudwatch Metrics: Build, SucceedBuild, Failed Builds, .. <br />
 </details>
+<details>
+    <summary class="content-header">20. CodeBuild - Validating CodeCommit Pull Requests</summary>
+    - Best practice: Run CodeBuild of Pull Request before merging to master <br />
+</details>
