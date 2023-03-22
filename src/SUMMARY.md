@@ -9,7 +9,7 @@
     - [Solution Architect Professional]()
     - [DevOps Professional](./aws/certificates/devops_professional.md)
       - [Stephan](./aws/certificates/devops_professional_Stephane.md)
-      - [Examtopic](.aws/certificates/../../aws/certificates/devops_professional_examtopic.md)
+      - [Examtopic](./aws/certificates/devops_professional_examtopic.md)
 - [DevOps](devops/devops.md)
   - [Services]()
     - [Helm](devops/services/helm/helm.md)
