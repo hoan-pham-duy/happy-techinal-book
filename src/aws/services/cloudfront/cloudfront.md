@@ -1,0 +1,3 @@
+1. Clear cache in the CloudFront:https://tecadmin.net/remove-cloudfront-cache/
+2. https://dev.to/aws-builders/serve-a-react-app-from-the-s3-bucket-25c2
+3. If your distribution does not show as an alias target, you can always manually copy and paste the d123.cloudfront.net (replace d123.cloudfront.net with the actual DNS name of your distribution) in to the target. This will allow you to create the alias record. https://stackoverflow.com/questions/30611917/cloudfront-distribution-not-showing-as-route53-alias-target
